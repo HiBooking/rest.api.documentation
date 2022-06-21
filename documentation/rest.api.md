@@ -16,3 +16,6 @@
   * [Получить полную информацию по бронированию](api.method/booking/get_one.md) : `GET <host>/bookings/`
 * Дополнительно
   * [Служебный метод](api.method/status.md) : `GET <host>/status/`
+
+
+
