@@ -20,10 +20,12 @@
 
 # Пример ответа содержащего ошибку
 
-    {
-        "code": 400,
-        "status": "error",
-        "message_error": "There is no order"
-    }
+```json
+{
+    "code": 400,
+    "status": "error",
+    "message_error": "There is no order"
+}
+```
 
 `message_error` - поле содержащее краткое описание ошибки
