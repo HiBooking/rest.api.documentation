@@ -1,46 +1,37 @@
-# Show Current User
+**Служебный метод**
+-----------------------------------
 
-Get the details of the currently Authenticated User along with basic
-subscription information.
+Метод позволяет получить техническую информацию
 
-**URL** : `/api/user/`
+**URL:** `/status/`
 
-**Method** : `GET`
+**HTTP метод:** `GET`
 
-**Auth required** : YES
+**Параметры запроса: нет**
 
-**Permissions required** : None
+**Успешный ответ: `Code: 200`**
 
-## Success Response
+[Общие параметры ответа](../main.response.md)
 
-**Code** : `200 OK`
+Описание полей ответа метода: `message`
 
-**Content examples**
+| Название           | Тип      | Значения          | Описание                                        |
+|--------------------|----------|-------------------|-------------------------------------------------|
+| version            | `String` |                   | текущая версия                                  |
+| server_timestamp   | `Int`    | Timestamp         | текущая метка времени сервера Timestamp         |
+| server_time        | `Int`    | DateTime          | текущая метка времени сервера в формате ISO8601 |
 
-For a User with ID 1234 on the local database where that User has saved an
-email address and name information.
 
-```json
-{
-    "id": 1234,
-    "first_name": "Joe",
-    "last_name": "Bloggs",
-    "email": "joe25@example.com"
-}
-```
-
-For a user with ID 4321 on the local database but no details have been set yet.
+_Пример:_
 
 ```json
-{
-    "id": 4321,
-    "first_name": "",
-    "last_name": "",
-    "email": ""
-}
+  {
+    "code": 200,
+    "status": "success",
+    "message": {
+      "version": "1.0.0",
+      "server_timestamp": 1656076093,
+      "server_time": "2022-06-24T16:08:13+0300"
+    }
+  }
 ```
-
-## Notes
-
-* If the User does not have a `UserInfo` instance when requested then one will
-  be created for them.
