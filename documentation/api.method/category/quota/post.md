@@ -37,5 +37,5 @@ _Пример:_
       "code": 200,
       "status": "success",
       "message": "OK"
-}
+  }
 ```
