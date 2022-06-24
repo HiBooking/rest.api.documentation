@@ -34,10 +34,8 @@ _Пример:_
 
 ```json
   {
-    {
       "code": 200,
       "status": "success",
       "message": "OK"
-    }
-  }
+}
 ```
