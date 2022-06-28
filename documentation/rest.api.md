@@ -12,8 +12,8 @@
     * [Установить квоты категории номера](api.method/category/quota/post.md) : `POST <host>/categories/:id/quotas/`
     * [Удалить квоты категории номера](api.method/category/quota/delete.md) : `DELETE <host>/categories/:id/quotas/`
 * Заявки на бронирование
-  * [Получить список заявок на бронирование](api.method/booking/get_list.md) : `GET <host>/bookings/`
-  * [Получить полную информацию по бронированию](api.method/booking/get_one.md) : `GET <host>/bookings/`
+  * [Получить список заявок на бронирование](api.method/booking/get.list.md) : `GET <host>/bookings/`
+  * [Получить полную информацию по бронированию](api.method/booking/get.one.md) : `GET <host>/bookings/`
 * Дополнительно
   * [Служебный метод](api.method/status.md) : `GET <host>/status/`
 
