@@ -35,7 +35,6 @@ _Пример:_
 
 ```json
   {
-    {
       "code": 200,
       "status": "success",
       "message": {
@@ -56,7 +55,7 @@ _Пример:_
             "dateCreate": "2022-06-24",
             "lastEditDate": "2022-06-24"
           }
-          ...
+          {}
         ],
         "pagination": {
           "countPage": 6,
@@ -67,6 +66,5 @@ _Пример:_
           "totalCount": 51
         }
       }
-    }
   }
 ```
