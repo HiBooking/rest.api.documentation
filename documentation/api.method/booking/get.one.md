@@ -89,14 +89,14 @@
 ##### <a name="userGuest"></a>Описание объекта `userGuest`
 
 
-| Название | Тип   | Описание                                              |
-| ------------------ | ---------- | --------------------------------------------------------------- |
-| name             | `String` | имя                                                        |
-| lastName         | `String` | фамилия                                                |
-| secondName       | `String` | отчество                                              |
-| fullName         | `String` | полное имя                                           |
-| gender           | `String` | пол<br /> `M` - мужской <br /> `F` - женский |
-| dateBirtday      | `Date`   | дата рождения                                     |
+| Название     | Тип      | Описание                                     |
+|--------------|----------|----------------------------------------------|
+| name         | `String` | имя                                          |
+| lastName     | `String` | фамилия                                      |
+| secondName   | `String` | отчество                                     |
+| fullName     | `String` | полное имя                                   |
+| gender       | `String` | пол<br /> `M` - мужской <br /> `F` - женский |
+| dateBirthday | `Date`   | дата рождения                                |
 
 <br />
 
@@ -152,7 +152,7 @@ _Пример:_
                   "secondName": "Сергеевич",
                   "fullName": "Василий Иванов Сергеевич",
                   "gender": "M",
-                  "dateBirtday": "1985-01-27"
+                  "dateBirthday": "1985-01-27"
                 }
               },
               {
@@ -165,7 +165,7 @@ _Пример:_
                   "secondName": "Сергеевич",
                   "fullName": "Алексей Петров Сергеевич",
                   "gender": "M",
-                  "dateBirtday": "1990-01-30"
+                  "dateBirthday": "1990-01-30"
                 }
               }
             ]
@@ -192,7 +192,7 @@ _Пример:_
                   "secondName": "Сергеевич",
                   "fullName": "Василий Иванов Сергеевич",
                   "gender": "M",
-                  "dateBirtday": "1985-01-27"
+                  "dateBirthday": "1985-01-27"
                 }
               },
               {
@@ -205,7 +205,7 @@ _Пример:_
                   "secondName": "Сергеевич",
                   "fullName": "Василий Иванов Сергеевич",
                   "gender": "F",
-                  "dateBirtday": "2001-10-01"
+                  "dateBirthday": "2001-10-01"
                 }
               },
               {
@@ -218,7 +218,7 @@ _Пример:_
                   "secondName": "Сергеевич",
                   "fullName": "Василий Иванов Сергеевич",
                   "gender": "M",
-                  "dateBirtday": "1985-01-27"
+                  "dateBirthday": "1985-01-27"
                 }
               },
               {
@@ -231,7 +231,7 @@ _Пример:_
                   "secondName": "Сергеевич",
                   "fullName": "Василий Иванов Сергеевич",
                   "gender": "M",
-                  "dateBirtday": "1985-01-27"
+                  "dateBirthday": "1985-01-27"
                 }
               }
             ]
@@ -258,7 +258,7 @@ _Пример:_
                   "secondName": "Сергеевич",
                   "fullName": "Василий Иванов Сергеевич",
                   "gender": "M",
-                  "dateBirtday": "1985-01-27"
+                  "dateBirthday": "1985-01-27"
                 }
               },
               {
@@ -271,7 +271,7 @@ _Пример:_
                   "secondName": "Сергеевич",
                   "fullName": "Василий Иванов Сергеевич",
                   "gender": "M",
-                  "dateBirtday": "1985-01-27"
+                  "dateBirthday": "1985-01-27"
                 }
               },
               {
@@ -284,7 +284,7 @@ _Пример:_
                   "secondName": "Сергеевич",
                   "fullName": "Василий Иванов Сергеевич",
                   "gender": "M",
-                  "dateBirtday": "1985-01-27"
+                  "dateBirthday": "1985-01-27"
                 }
               }
             ]
